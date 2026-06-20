@@ -295,4 +295,3 @@ For issues and questions:
 - Multi-language support
 - Mobile device detection
 - Integration with WAF systems
-=======
