@@ -11,6 +11,23 @@ A comprehensive web-based system that silently detects automated bots without us
 - **Live Dashboard**: Real-time visualization of threats and statistics
 - **Scalable Architecture**: Lightweight and production-ready
 
+## 📸 Screenshots
+
+### Frontend Interface
+![Frontend Interface](screenshots/Screenshot%202026-03-23%20225005.png)
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/Screenshot%202026-04-12%20140426.png)
+
+### Detection Results
+![Detection Results](screenshots/Screenshot%202026-04-12%20140445.png)
+
+### Risk Analysis
+![Risk Analysis](screenshots/Screenshot%202026-04-12%20140455.png)
+
+### Security Alerts
+![Security Alerts](screenshots/Screenshot%202026-04-12%20140518.png)
+
 ## 🏗️ System Architecture
 
 ```
