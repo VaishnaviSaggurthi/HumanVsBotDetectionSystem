@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-Based Human vs Bot Interaction Detection System
 
 A comprehensive web-based system that silently detects automated bots without using CAPTCHA by analyzing real-time user behavioral patterns.
@@ -264,10 +263,6 @@ Get system statistics for dashboard
 3. Add tests for new features
 4. Submit pull request
 
-## 📄 License
-
-MIT License - see LICENSE file for details
-
 ## 🆘 Support
 
 For issues and questions:
@@ -284,5 +279,3 @@ For issues and questions:
 - Mobile device detection
 - Integration with WAF systems
 =======
-# HumanVsBotDetectionSystem
->>>>>>> 7165855b5ea1b6f0d4a36afd9f987bb3064d2156
