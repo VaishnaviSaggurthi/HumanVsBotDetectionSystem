@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bot Detection System</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #333; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .content { height: 1800px; line-height: 1.8; }
+        button { padding: 15px 30px; margin: 10px; background: linear-gradient(45deg, #007bff, #0056b3); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; transition: all 0.3s; }
+        button:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,123,255,0.3); }
+        .status { position: fixed; top: 10px; right: 10px; background: #28a745; color: white; padding: 15px; border-radius: 8px; font-weight: bold; z-index: 1000; }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+        .section { background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 4px solid #007bff; }
+    </style>
+</head>
+<body>
+    <div class="status" id="status">Monitoring Active</div>
+    <div class="container">
+        <h1>🛡️ Smart Bot Detection System</h1>
+        <p>Advanced AI-powered security system that silently identifies automated bots through behavioral analysis.</p>
+        
+        <div class="content">
+            <h2>🎯 Interactive Security Testing</h2>
+            <p>This page continuously monitors your interaction patterns to distinguish between human users and automated bots. Move your mouse naturally, click buttons, and scroll to see the system in action.</p>
+            
+            <button onclick="handleClick('security')">Security Check</button>
+            <button onclick="handleClick('analysis')">Run Analysis</button>
+            <button onclick="handleClick('verify')">Verify Identity</button>
+            
+            <h3>🔍 How It Works</h3>
+            <p>Our system analyzes multiple behavioral factors:</p>
+            <ul>
+                <li><strong>Mouse Movement Patterns:</strong> Natural curves vs straight lines</li>
+                <li><strong>Click Timing:</strong> Human irregularity vs bot consistency</li>
+                <li><strong>Scroll Behavior:</strong> Organic speed changes vs mechanical patterns</li>
+                <li><strong>Interaction Depth:</strong> Genuine engagement vs surface-level automation</li>
+            </ul>
+            
+            <div class="section">
+                <h3>🚀 Real-Time Protection</h3>
+                <p>The system provides instant threat assessment with graduated security responses. When suspicious behavior is detected, appropriate countermeasures are automatically deployed while maintaining user experience for legitimate visitors.</p>
+                
+                <button onclick="handleClick('test1')">Test Button 1</button>
+                <button onclick="handleClick('test2')">Test Button 2</button>
+            </div>
+            
+            <h3>📊 Advanced Analytics</h3>
+            <p>Machine learning algorithms trained on thousands of interaction patterns enable accurate classification with over 95% precision. The system continuously adapts to new bot behaviors while minimizing false positives.</p>
+            
+            <p>Unlike traditional CAPTCHA systems that disrupt user experience, this solution operates transparently in the background, analyzing behavioral biometrics to make real-time security decisions.</p>
+            
+            <div class="section">
+                <h3>🔒 Security Features</h3>
+                <p>Key capabilities include:</p>
+                <ul>
+                    <li>Silent bot detection without user interruption</li>
+                    <li>Real-time risk scoring and threat assessment</li>
+                    <li>Adaptive security responses based on threat level</li>
+                    <li>Comprehensive logging and admin alerting</li>
+                    <li>Device fingerprinting and tracking</li>
+                </ul>
+                
+                <button onclick="handleClick('final')">Final Test</button>
+            </div>
+            
+            <h3>🌐 Applications</h3>
+            <p>This technology protects against:</p>
+            <ul>
+                <li>Web scraping and data harvesting</li>
+                <li>Account creation bots and spam</li>
+                <li>Click fraud and ad manipulation</li>
+                <li>Credential stuffing attacks</li>
+                <li>DDoS and resource exhaustion</li>
+            </ul>
+            
+            <p>Continue interacting with this page to test the detection system. The AI is continuously learning your behavioral patterns and will flag any automated or suspicious activity.</p>
+            
+            <div class="section">
+                <h4>🧪 Behavioral Testing</h4>
+                <p>The system analyzes your unique interaction signature including mouse acceleration, click pressure, scroll momentum, and timing variations that distinguish humans from automated scripts.</p>
+                
+                <button onclick="handleClick('behavior1')">Behavior Test A</button>
+                <button onclick="handleClick('behavior2')">Behavior Test B</button>
+                <button onclick="handleClick('behavior3')">Behavior Test C</button>
+            </div>
+            
+            <p>The detection operates with minimal overhead, suitable for high-traffic applications while maintaining privacy by analyzing only behavioral patterns, not personal data.</p>
+        </div>
+    </div>
+
+    <script src="behavior_tracker.js"></script>
+</body>
+</html>
